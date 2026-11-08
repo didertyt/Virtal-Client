@@ -1,0 +1,7 @@
+local StarterGui = game:GetService("StarterGui")
+
+StarterGui:SetCore("SendNotification", {
+    Title = "Virtal Client",
+    Text = "Virtal Client not released for Brookaven RP!",
+    Duration = 5,
+})
