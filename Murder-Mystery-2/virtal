@@ -1,0 +1,8 @@
+-- Сообщение для MM2
+local StarterGui = game:GetService("StarterGui")
+
+StarterGui:SetCore("SendNotification", {
+    Title = "Virtal Client",
+    Text = "Virtal Client not released for MM2!",
+    Duration = 5,
+})
